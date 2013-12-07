@@ -1,0 +1,116 @@
+Which of these graphs has the higher learning rate?
+
+Which of these graphs has a higher initial time?
+
+Suppose two students have the same learning rate, one has initial time 5, and the other has initial time 3. Which statement is true?
+
+* The difference between the two students' times will be 2 seconds for all numbers of repetitions
+* The ratio between the two students' times will be 5:3 ...
+* 
+
+The problem is that they can match just because I used the word ratio.
+
+Suppose student A 
+
+
+Practice
+
+The 'steepness' of the graph indicates how fast reaction time is decreasing per repetition. 
+
+Find a learning rate which takes longer to cut reaction time in half ...
+
+Fix the initial time or learning rate, find which one makes it decrease fastest ...
+
+Test
+
+Learning rate determines the % or ratio decrease per repetition. Thus, the decrease is larger for larger initial time, and also larger for larger learning rate, but the time required to decrease by a certain percent depends only on learning rate. 
+
+If two graphs have same initial learning time but different learning rates, the difference between their RTs will vary over time. If two graphs have ... 
+
+How does the initial time affect how much reaction time decreases per repetition?
+* The higher the initial time, the more the reaction time decreases per repetition
+- The lower the initial time, the more the reaction time decreases per repetition
+- The initial time does not affect how much reaction time decreases per repetition
+- More than one of the above answers could be correct, depending on the learning rate.
+
+How does the initial time affect the number of repetitions required to cut the reaction time in half?
+- The higher the initial time, the larger the number of repetitions required
+- The higher the initial time, the smaller the number of repetitions required
+* The initial time does not affect how how many repetitions are required
+- More than one of the above answers could be correct, depending on the learning rate.
+
+How does the learning rate affect how much reaction time decreases per repetition?
+* The higher the learning rate, the more the reaction time decreases time per repetition
+- The lower the learning rate, the more the reaction time decreases per repetition
+- The learning rate does not affect how much reaction time decreases per repetition
+- More than one of the above answers could be correct, depending on the initial time.
+
+How does the learning rate affect the number of repetitions required to cut the reaction time in half?
+- The higher the learning rate, the larger the number of repetitions required
+* The higher the learning rate, the smaller the number of repetitions required
+- The learning rate does not affect how how many repetitions are required
+- More than one of the above answers could be correct, depending on the initial time.
+
+For which of these student will the reaction time on repetition 4 be 25% of the reaction time on repetition 1?
+- Initial time = 4 seconds, learning rate = 1.6
+- Initial time = 2.5 seconds, learning rate = 1.6
+- Initial time = 2.5 seconds, learning rate = 0.4
+* Initial time = 2.5 seconds, learning rate = 1.0
+
+Suppose persons A and B have the same initial time, but person A's learning rate is 0.6, while person B's learning rate is 1.0. Then ...
+- After the first repetition, Person A's reaction time will be 0.8 seconds faster than person A's
+- After the first repetition, Person A's reaction time will be 0.8 seconds slower than person A's
+- After the first repetition, Person A's reaction time will be 60% of person A's
+* None of the above statements are true
+
+Suppose persons A and B have the same learning rate, but person A's initial time is 2, while person B's initial time is 4. Then ...
+- Person B's reaction time will be 2 seconds more than person A's, for any number of repetitions
+* Person B's reaction time will be twice person A's, for any number of repetitions
+- Both of the above statements are true
+- None of the above statements are true
+
+Suppose person A has initial time 2 and learning rate 0.6, while person B has initial time 4 and learning rate 1.0. Then ...
+- Person A will always be faster than person B, for any number of repetitions
+- Person B will always be faster than person A, for any number of repetitions
+* Which of person A or person B is faster depends on the number of repetitions
+- None of the above statements are true
+
+
+
+Suppose person A has a slower initial time but a faster learning rate than person B. Which statement is true?
+- Person A will always be faster regardless of the number of repetitions
+- Person B will always be faster regardless of the number of repetitions
+- Person A will be slower at first, but will eventually become faster ... REALLY? STUPID!
+
+Suppose person A has a slower initial time but a faster learning rate than person B. After several repetitions ...
+- Person A will be faster
+- Person B will be faster
+- Person A will be faster if the number of repetitions is large enough, but slower otherwise
+- Person B will be faster if the number of repetitions is large enough, but slower otherwise
+
+
+
+
+
+The difference in reaction time between two graphs with the same learning rate but different initial times ...
+* ... decreases with the number of repetitions
+- ... increases with the number of repetitions
+- ... stays the same with the number of repetitions
+- More than one of the above answers could be correct, depending on the learning rate of the two graphs
+NOT GOOD
+
+Which of these two graphs has a higher learning rate?
+
+If two graphs have different learning rates, they ...
+can't say CROSS, that only applies to superimposed.
+
+Suppose student (or graph?) A has a faster initial time than student (or graph) B, but student B has a higher learning rate. After 2 repetitions, ...
+- ... student A will be faster
+- ... student B will be faster
+- ... which student is faster depends on the difference in learning rates, but not on the initial times
+* ... which student is faster depends on both the learning rates and the initial times
+
+Suppose there are two students A and B. When will it be true that A starts faster but ends slower than B?
+- This will always happen ...
+- Sometimes happen ...
+But they can't judge this based on what I've shown them.
