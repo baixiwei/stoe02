@@ -43,8 +43,8 @@ var sandbox;    // boolean, if we're on turk, whether or not we're in the sandbo
 if ( override ) {
     offline = false;
     testing = true;
-    mode    = "forced";
-    verbose = false;
+    mode    = "free";
+    verbose = true;
     subjid  = "NONTURK" + Math.floor( Math.random()*1000000000 );
     turk    = false;
     // assigned = true;
@@ -68,11 +68,11 @@ if ( override ) {
 
 // set data table name and global experiment params
 if ( testing ) {
-    var table = "STOE_01_test";
+    var table = "STOE_02_test";
 } else if ( turk ) {
-    var table = "STOE_01_turk";
+    var table = "STOE_02_turk";
 } else {
-    var table = "STOE_01";
+    var table = "STOE_02";
 }
 
 if ( verbose ) {
@@ -110,7 +110,7 @@ function checkExclusion() {
     if ( offline ) {
         showConsentForm();
     } else {
-        var tables = [ "STOE_01", "STOE_01_turk" ];
+        var tables = [ "STOE_01", "STOE_01_turk", "STOE_02", "STOE_02_turk" ];
         $.ajax( { type: 'post', cache: false, url: 'exclude_subject.php',
                   data: { 'subjid': subjid, 'tables': JSON.stringify( tables), 'table': table },
                   success: function(data) {
@@ -142,7 +142,7 @@ function showConsentForm() {
 // assignCondition (Turk and Pool)
 // assign value to condition, which determines vals of experimental factors
 function assignCondition(data) {
-    var numcond = 4;
+    var numcond = 2;
     var condition;
     if ( offline ) {
         condition = Math.floor( Math.random() * numcond );
@@ -169,8 +169,10 @@ function assignCondition(data) {
 // conditionToFactors (Turk and Pool)
 // converts condition assignment into experimental factors
 function conditionToFactors( condition ) {
-    var spatial     = [ "Separated", "Superimposed" ][ condition % 2 ];
-    var temporal    = [ "Separated", "Superimposed" ][ Math.floor( condition/2 ) ];
+//    var spatial     = [ "Separated", "Superimposed" ][ condition % 2 ];
+//    var temporal    = [ "Separated", "Superimposed" ][ Math.floor( condition/2 ) ];
+    var spatial     = "Separated";
+    var temporal    = [ "Separated", "Superimposed" ][ condition ];
     return { "spatial": spatial, "temporal": temporal };
 }
 
@@ -208,7 +210,6 @@ function makeExpStruct( spatial, temporal, testing, mode, topics, blocks ) {
     
     return( exp_struct );
 }
-
 
 // runExperiment
 // does what it sounds like
